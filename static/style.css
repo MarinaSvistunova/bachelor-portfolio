@@ -110,3 +110,7 @@ header nav ul li {
     transform: scale(1.05);
     text-decoration: none;
 }
+
+.page2 div {
+    padding: 10px;
+}
