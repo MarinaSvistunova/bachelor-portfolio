@@ -114,3 +114,8 @@ header nav ul li {
 .page2 div {
     margin: 20px;
 }
+
+.page2 embed:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
