@@ -1,0 +1,112 @@
+html {
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 120%;
+    margin: 50px 25px;
+    /* background-color: rgb(221, 225, 228); */
+}
+
+.page {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 2fr 3fr;
+}
+  
+
+a {
+    color: #161616;
+}
+
+a:hover {
+    color: #161616;
+}
+
+header, footer, div.page {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+header h2 {
+    color: #5a5a5a;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+    text-align: left;
+}
+
+header p {
+    color: #5a5a5a;
+}
+header h2 .black-p {
+    color: #161616;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+    text-align: left;
+}
+
+header nav {
+    margin-top: 30px;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+/* div.page {
+ background: white;
+} */
+
+/* footer {
+  top: auto;
+  bottom: 0;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+} */
+
+.card {
+    background: #f7f5f5;
+    padding: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.card a {
+    text-decoration: none;
+}
+/* .card a:hover {
+    color: violet;
+} */
+
+.card:hover {
+    transform: scale(1.05);
+    color: rgb(99, 22, 99);
+}
+
+.page2 a {
+    text-decoration: none;
+}
+.page2 img:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
