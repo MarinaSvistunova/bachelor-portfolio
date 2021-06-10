@@ -108,7 +108,7 @@ header nav ul li {
 }
 
 .page2 a:hover {
-    color: rgb(99, 22, 99);
+    color: rgb(99, 22, 99) !important;
 }
 
 .page2 img:hover {
