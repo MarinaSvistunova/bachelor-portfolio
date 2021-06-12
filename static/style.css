@@ -24,7 +24,7 @@ body {
 .page3 {
     display: grid;
     width: 100%;
-    grid-template-columns: 2fr 1fr 4fr 1fr;
+    grid-template-columns: 2fr 4fr 1fr;
 }
   
 
