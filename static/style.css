@@ -20,6 +20,12 @@ body {
     width: 100%;
     grid-template-columns: 2fr 1fr 4fr 1fr;
 }
+
+.page3 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 4fr 1fr;
+}
   
 
 a {
